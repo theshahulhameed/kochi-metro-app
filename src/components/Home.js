@@ -1,20 +1,11 @@
 import React from "react";
+import Header from "./Header"
+import Footer from "./Footer"
 
 function Home() {
     return (
         <main>
-            <section className="hero is-medium is-success is-bold">
-                <div className="hero-body">
-                    <div className="container">
-                        <h1 className="title">
-                            Kochi Metro Application
-                            </h1>
-                        <h2 className="subtitle">
-                            Pricing & Station Information
-                            </h2>
-                    </div>
-                </div>
-            </section>
+        <Header />
             <section className="level is-mobile">
                 <div className="level-item has-text-centered">
                     <div>
@@ -37,7 +28,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className="container">
+            <section className="section container">
                 <form>
                     <div className="field">
                         <label className="label">Name</label>
@@ -69,11 +60,7 @@ function Home() {
                     </div>
                 </form>
             </section>
-                <footer className="footer">
-                    <div className="content has-text-centered">
-                        <p>Website by <strong>Shahul Hameed.</strong> </p>
-                    </div>
-                </footer>
+            <Footer />
         </main>
     )
 }
