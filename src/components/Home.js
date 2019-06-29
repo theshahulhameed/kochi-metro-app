@@ -15,8 +15,8 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section class="level is-mobile">
-                <div class="level-item has-text-centered">
+            <section className="level is-mobile">
+                <div className="level-item has-text-centered">
                     <div>
                         <h2>Services</h2>
                         <ol>
@@ -39,33 +39,33 @@ function Home() {
             </section>
             <section className="container">
                 <form>
-                    <div class="field">
-                        <label class="label">Name</label>
-                        <div class="control">
-                            <input class="input" type="text" placeholder="Text input" />
+                    <div className="field">
+                        <label className="label">Name</label>
+                        <div className="control">
+                            <input className="input" type="text" placeholder="Text input" />
                         </div>
                     </div>
-                    <div class="field">
-                        <label class="label">Email</label>
-                        <div class="control has-icons-left has-icons-right">
-                            <input class="input is-danger" type="email" placeholder="Email input" value="hello@" />
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
+                    <div className="field">
+                        <label className="label">Email</label>
+                        <div className="control has-icons-left has-icons-right">
+                            <input className="input is-danger" type="email" placeholder="Email input" value="hello@" />
+                            <span className="icon is-small is-left">
+                                <i className="fas fa-envelope"></i>
                             </span>
-                            <span class="icon is-small is-right">
-                                <i class="fas fa-exclamation-triangle"></i>
+                            <span className="icon is-small is-right">
+                                <i className="fas fa-exclamation-triangle"></i>
                             </span>
                         </div>
-                        <p class="help is-danger">This email is invalid</p>
+                        <p className="help is-danger">This email is invalid</p>
                     </div>
-                    <div class="field">
-                        <label class="label">Message</label>
-                        <div class="control">
-                            <textarea class="textarea" placeholder="Textarea"></textarea>
+                    <div className="field">
+                        <label className="label">Message</label>
+                        <div className="control">
+                            <textarea className="textarea" placeholder="Textarea"></textarea>
                         </div>
                     </div>
-                    <div class="control">
-                        <button class="button is-primary">Submit</button>
+                    <div className="control">
+                        <button className="button is-primary">Submit</button>
                     </div>
                 </form>
             </section>
